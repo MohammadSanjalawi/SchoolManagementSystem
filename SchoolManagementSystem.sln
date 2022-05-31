@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentAdmissionManagement"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentAttendanceManagement", "StudentAttendanceManagement\StudentAttendanceManagement.csproj", "{167E2ED7-5FB6-416A-AC46-B78746630C8A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolAPIGateway", "SchoolAPIGateway\SchoolAPIGateway.csproj", "{74CDC1AC-39E1-42B3-A294-638644EE37C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{167E2ED7-5FB6-416A-AC46-B78746630C8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{167E2ED7-5FB6-416A-AC46-B78746630C8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{167E2ED7-5FB6-416A-AC46-B78746630C8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74CDC1AC-39E1-42B3-A294-638644EE37C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74CDC1AC-39E1-42B3-A294-638644EE37C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74CDC1AC-39E1-42B3-A294-638644EE37C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74CDC1AC-39E1-42B3-A294-638644EE37C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
