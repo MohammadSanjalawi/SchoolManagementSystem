@@ -21,6 +21,9 @@ namespace SchoolAPIGateway
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+                }).ConfigureAppConfiguration((HostingContext,config) => {
+                    config.SetBasePath(HostingContext.HostingEnvironment.ContentRootPath)
+                        .AddJsonFile("Ocelot.json", optional: false, reloadOnChange: true);
                 });
     }
 }
